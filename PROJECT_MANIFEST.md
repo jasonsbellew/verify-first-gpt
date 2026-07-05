@@ -7,14 +7,14 @@
 - GPT URL: https://chatgpt.com/g/g-6a40dea0af9481919dc57f979fb9f57a-verify-first
 - Current release status: v0.1.1 pre-release tag published
 - Active runtime status: launch-readiness source stack built
-- Upload package status: rebuilt for default public runtime
+- Upload package status: corrected for default public runtime; Source Index and full instructions remain source-control references, not Knowledge uploads
 - Live QA status: full 11-prompt behavioral QA completed; conditional pass
 - Next step: review QA caveats and decide whether to promote the pre-release.
 
 ## Source-Control Inventory
 
-- `source-active/VF_OS_00_Public_Source_Index_Authority_Map.md`
-- `source-active/VF_INST_01_Public_Full_GPT_Instructions.md`
+- `source-active/VF_OS_00_Public_Source_Index_Authority_Map.md` - source-control authority and upload map; excluded from `/upload-package/public-runtime`
+- `source-active/VF_INST_01_Public_Full_GPT_Instructions.md` - full design instructions; excluded from `/upload-package/public-runtime`
 
 ## Default Runtime Upload Inventory
 
