@@ -8,8 +8,8 @@
 - Current release status: v0.1.1 pre-release tag published
 - Active runtime status: launch-readiness source stack built
 - Upload package status: corrected for default public runtime; Source Index and full instructions remain source-control references, not Knowledge uploads
-- Live QA status: full 11-prompt behavioral QA completed; conditional pass
-- Next step: review QA caveats and decide whether to promote the pre-release.
+- Live QA status: side-panel follow-up behavioral QA failed due to prompt/response alignment regressions
+- Next step: run a clean fresh-conversation behavioral QA pass before promoting the pre-release or treating the live GPT as launch-ready.
 
 ## Source-Control Inventory
 
