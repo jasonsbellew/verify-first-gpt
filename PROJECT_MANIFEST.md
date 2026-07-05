@@ -2,13 +2,14 @@
 
 - Project name: Verify First
 - Repo status: active public source stack built
-- Public/private status: private repo; public-safe source target
+- Public/private status: public repo; public-safe source target
 - Source of truth: GitHub
 - GPT URL: https://chatgpt.com/g/g-6a40dea0af9481919dc57f979fb9f57a-verify-first
-- Current release status: 0.1.1 launch-readiness patch prepared; not publicly released
+- Current release status: v0.1.1 pre-release tag published
 - Active runtime status: launch-readiness source stack built
 - Upload package status: rebuilt for default public runtime
-- Next step: review patch, upload runtime files, paste compressed instructions, then run live GPT behavioral tests.
+- Live QA status: full 11-prompt behavioral QA completed; conditional pass
+- Next step: review QA caveats and decide whether to promote the pre-release.
 
 ## Source-Control Inventory
 
