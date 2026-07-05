@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 Side-Panel QA Follow-Up - 2026-07-05
+
+- Recorded a failed side-panel behavioral QA follow-up in `TEST_RESULTS.md`.
+- Marked prompt/response alignment regressions as launch-blocking until cleared by a clean fresh-conversation QA pass.
+- Updated `PROJECT_MANIFEST.md` so release readiness is not overstated after the follow-up QA run.
+
 ## 0.1.1 Pre-Upload Correction - 2026-07-05
 
 - Restored `source-active/VF_OS_00_Public_Source_Index_Authority_Map.md` as the active source-control authority file.
