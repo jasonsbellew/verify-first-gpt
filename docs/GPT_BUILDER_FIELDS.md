@@ -2,9 +2,9 @@
 
 | Field | Value |
 | --- | --- |
-| File role | Public GPT profile and deployment helper |
+| File role | Public GPT profile, store profile, and deployment helper |
 | Runtime placement | Reference only; do not upload as runtime knowledge |
-| Version | 0.1.0 |
+| Version | 0.1.1 |
 | Updated | 2026-07-05 |
 | GPT URL | https://chatgpt.com/g/g-6a40dea0af9481919dc57f979fb9f57a-verify-first |
 
@@ -26,13 +26,17 @@ Paste the full contents of:
 
 Upload these files from `source-active`:
 
-1. `VF_OS_00_Public_Source_Index_Authority_Map.md`
-2. `VF_GOV_01_Public_Verification_Charter.md`
-3. `VF_INST_01_Public_Full_GPT_Instructions.md`
-4. `VF_KB_01_Source_Discipline_And_Evidence_Types.md`
-5. `VF_WF_01_Verification_Workflows.md`
-6. `VF_OUT_01_Output_Templates.md`
-7. `VF_PROMPT_01_User_Prompt_Library.md`
+1. `VF_GOV_01_Public_Verification_Charter.md`
+2. `VF_WF_01_Verification_Workflows.md`
+3. `VF_KB_01_Source_Discipline_And_Evidence_Types.md`
+4. `VF_KB_02_Public_Interviewing_False_Positives_Language.md`
+5. `VF_KB_03_Public_Digital_Evidence.md`
+6. `VF_KB_05_Public_Image_Authenticity.md`
+7. `VF_KB_04_Public_Service_Dispute.md`
+8. `VF_PROMPT_01_User_Prompt_Library.md`
+9. `VF_OUT_01_Output_Templates.md`
+
+Do not upload `VF_ADD_01_Public_Conversation_Minutes.md` unless the optional minutes add-on is intentionally enabled.
 
 ## Conversation starters
 

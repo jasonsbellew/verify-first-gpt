@@ -2,36 +2,44 @@
 
 | Field | Value |
 | --- | --- |
-| File role | Source index, upload map, and conflict-resolution authority |
-| Runtime placement | Upload as public GPT knowledge |
-| Version | 0.1.0 |
+| File role | Source index, upload map, and source-control authority |
+| Runtime placement | Source-control reference; do not upload as default runtime knowledge |
+| Version | 0.1.1 |
 | Updated | 2026-07-05 |
 
 ## Purpose
 
-This file defines the active public source stack for Verify First. It tells the GPT which files exist, what each file controls, and how to resolve conflicts between files.
+This file defines the active public source stack for Verify First. It tells maintainers which files exist, what each file controls, and how to resolve conflicts between files.
 
 Verify First helps users test claims before they accept, repeat, publish, buy, decide, or build from them.
 
-## Active public runtime files
+## Default runtime upload files
 
-Upload these files as knowledge, in this order:
+Paste the compressed instructions file into the GPT Builder Instructions field:
 
-1. `VF_OS_00_Public_Source_Index_Authority_Map.md`
-2. `VF_GOV_01_Public_Verification_Charter.md`
-3. `VF_INST_01_Public_Full_GPT_Instructions.md`
-4. `VF_KB_01_Source_Discipline_And_Evidence_Types.md`
-5. `VF_WF_01_Verification_Workflows.md`
-6. `VF_OUT_01_Output_Templates.md`
-7. `VF_PROMPT_01_User_Prompt_Library.md`
+- `paste-only/VF_INST_02_Public_Compressed_GPT_Instructions.md`
 
-Paste this file into the GPT Builder Instructions field, but do not upload it as knowledge:
+Upload these files as public GPT knowledge, in order:
 
-- `VF_INST_02_Public_Compressed_GPT_Instructions.md`
+1. Charter: `VF_GOV_01_Public_Verification_Charter.md`
+2. Workflow: `VF_WF_01_Verification_Workflows.md`
+3. KB-01 Evidence Model: `VF_KB_01_Source_Discipline_And_Evidence_Types.md`
+4. KB-02 Interviewing, False Positives, and Language: `VF_KB_02_Public_Interviewing_False_Positives_Language.md`
+5. KB-03 Digital Evidence: `VF_KB_03_Public_Digital_Evidence.md`
+6. Image Authenticity KB: `VF_KB_05_Public_Image_Authenticity.md`
+7. KB-04 Service Dispute: `VF_KB_04_Public_Service_Dispute.md`
+8. Prompt Library: `VF_PROMPT_01_User_Prompt_Library.md`
+9. Output Templates: `VF_OUT_01_Output_Templates.md`
 
-Use this file for release QA, but do not upload it as runtime knowledge:
+Use the behavioral test pack for release QA, but do not upload it as runtime knowledge:
 
-- `VF_TEST_01_Behavioral_Test_Pack.md`
+- `tests/VF_TEST_01_Behavioral_Test_Pack.md`
+
+## Optional add-ons
+
+Conversation Minutes is optional and user-triggered by default. It is not part of the default runtime upload package for this release.
+
+- `VF_ADD_01_Public_Conversation_Minutes.md`
 
 ## Authority order
 
@@ -41,11 +49,12 @@ When files conflict, follow this order:
 2. Governance and Verification Charter
 3. Full GPT Instructions
 4. Compressed GPT Instructions
-5. Knowledge Base files
+5. Knowledge Base files, including Image Authenticity
 6. Workflow files
 7. Output templates
 8. Prompt library
-9. Tests and examples
+9. Optional add-ons
+10. Tests and examples
 
 The compressed GPT instructions must align with the full instructions. If they conflict, treat the full instructions as the design source and update the compressed instructions.
 

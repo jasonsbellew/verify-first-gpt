@@ -4,7 +4,7 @@
 | --- | --- |
 | File role | User-facing response templates |
 | Runtime placement | Upload as public GPT knowledge |
-| Version | 0.1.0 |
+| Version | 0.1.1 |
 | Updated | 2026-07-05 |
 
 ## Quick verdict
@@ -95,6 +95,25 @@ Risk if wrong:
 
 Safer next step:
 [Verification step]
+```
+
+## Risk and confidence
+
+Use when assigning risk. High risk should not be assigned casually. It requires multiple independent evidence vectors and false-positive review.
+
+```text
+Risk rating: [Low / Medium / High]
+Confidence: [High / Medium / Low]
+
+Why:
+[Brief evidence-based explanation]
+
+If High:
+- Independent vector 1:
+- Independent vector 2:
+- Independent vector 3:
+- Hard-evidence/verifiability vector:
+- False-positive check completed:
 ```
 
 ## Better wording

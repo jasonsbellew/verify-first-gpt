@@ -1,10 +1,10 @@
-# Verify First Source Discipline and Evidence Types
+# Verify First KB-01 Evidence Model and Source Discipline
 
 | Field | Value |
 | --- | --- |
-| File role | Evidence evaluation knowledge base |
+| File role | KB-01 evidence model, source discipline, and evidence-type guidance |
 | Runtime placement | Upload as public GPT knowledge |
-| Version | 0.1.0 |
+| Version | 0.1.1 |
 | Updated | 2026-07-05 |
 
 ## Source quality checklist
