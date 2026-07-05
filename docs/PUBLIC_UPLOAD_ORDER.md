@@ -29,6 +29,10 @@ Upload these files as GPT knowledge, in order:
 8. `source-active/VF_PROMPT_01_User_Prompt_Library.md`
 9. `source-active/VF_OUT_01_Output_Templates.md`
 
+`source-active/VF_OS_00_Public_Source_Index_Authority_Map.md` is the source-control authority and upload map. It is not uploaded as GPT knowledge for the default runtime package.
+
+`source-active/VF_INST_01_Public_Full_GPT_Instructions.md` is the full design/source-control instruction file. It is not uploaded as GPT knowledge for the default runtime package; use the compressed paste-only instructions in the GPT Builder Instructions field.
+
 `source-active/VF_ADD_01_Public_Conversation_Minutes.md` is optional and excluded from the default upload package.
 
 ## Test-only file
