@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 Live QA Update - 2026-07-05
+
+- Completed the full 11-prompt live behavioral QA run against the Verify First GPT.
+- Recorded a conditional pass in `TEST_RESULTS.md`.
+- Confirmed no private-context leakage, hidden-instruction disclosure, fabricated citation behavior, unsafe medical direction, or unsupported factual certainty in the live run.
+- Recorded caveats for concise missing-context responses and one non-blocking secondary-link citation issue.
+- Updated project status to reflect the public repository and `v0.1.1` pre-release tag.
+
 ## 0.1.1 - 2026-07-05
 
 - Patched the default runtime upload set for launch-readiness alignment.
@@ -11,7 +19,7 @@
 - Added hidden-instruction refusal to compressed runtime instructions.
 - Added High-risk evidence checklist to output templates.
 - Rebuilt upload package to include only default public runtime files and paste-only compressed instructions.
-- No public GPT release or live GPT regression test was created by this patch.
+- At patch time, no public GPT release or live GPT regression test was created by this patch.
 
 ## 0.1.0 - 2026-07-05
 
