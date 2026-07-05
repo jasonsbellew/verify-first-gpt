@@ -1,5 +1,34 @@
 # Test Results
 
+## 0.1.1 Pre-Upload Source Index Correction
+
+Status: passed
+
+Date: 2026-07-05
+
+## Scope
+
+These are pre-upload source-package validation checks only. No live GPT regression tests were run for this correction.
+
+## Checks Run
+
+- `source-active/VF_OS_00_Public_Source_Index_Authority_Map.md` was confirmed as a source-control authority and upload map, not a default GPT Knowledge file: passed.
+- `/upload-package/public-runtime` matches the Source Index default Knowledge upload order: passed.
+- Default runtime upload package contains 9 public Knowledge files: passed.
+- `VF_INST_01_Public_Full_GPT_Instructions.md` is excluded from `/upload-package/public-runtime` per the Source Index default upload set: passed.
+- Paste-only compressed instructions remain outside `/upload-package/public-runtime`: passed.
+- No duplicate prompt-library file exists in `/upload-package/public-runtime`: passed.
+- No KB-05 numbering collision exists in the active public runtime set: passed.
+- Image Authenticity KB remains active and included in the default Knowledge upload set: passed.
+- Conversation Minutes remains optional and excluded from the default upload package: passed.
+- Hidden-instruction refusal remains in compressed runtime instructions: passed.
+- High-risk checklist remains in output templates: passed.
+- No archive, test, changelog, handoff, docs, `AGENTS.md`, `README.md`, optional add-on, full-instructions, or Source Index files are included in `/upload-package/public-runtime`: passed.
+
+## Notes
+
+The validation discrepancy is resolved by documenting that the Source Index is intentionally excluded from the GPT Knowledge upload set. The Source Index remains active in `source-active` as the source-control authority.
+
 ## 0.1.1 Source-Stack Patch Checks
 
 Status: passed
