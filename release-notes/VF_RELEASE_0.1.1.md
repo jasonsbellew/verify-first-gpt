@@ -4,7 +4,7 @@
 | --- | --- |
 | Release | 0.1.1 |
 | Date | 2026-07-05 |
-| Status | Launch-readiness patch prepared; not publicly released |
+| Status | Pre-release tag published; full live behavioral QA completed with conditional pass |
 
 ## Summary
 
@@ -21,4 +21,6 @@ This patch resolves source hygiene and runtime alignment blockers without changi
 
 ## Notes
 
-This is not a public release tag and does not claim live GPT regression results.
+The `v0.1.1` GitHub release is marked as a pre-release.
+
+Full live behavioral QA was completed on 2026-07-05 with a conditional pass. No launch-blocking behavior was observed, but the QA record preserves caveats for concise missing-context responses and one non-blocking secondary-link citation issue.
