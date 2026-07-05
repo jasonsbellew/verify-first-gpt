@@ -25,6 +25,8 @@ Release `0.1.0` creates the first public-ready Verify First source stack for cla
 
 Patch `0.1.1` prepares the stack for public-launch readiness by rebuilding the default upload set, adding focused public runtime KB files, marking Conversation Minutes optional, and tightening hidden-instruction and High-risk output rules.
 
+Live behavioral QA for `0.1.1` is complete with a conditional pass. See `TEST_RESULTS.md`.
+
 ## Builder Setup
 
 Use `docs/GPT_BUILDER_FIELDS.md` for the GPT profile, description, conversation starters, instructions placement, and knowledge upload list.
