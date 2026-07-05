@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 Pre-Upload Correction - 2026-07-05
+
+- Restored `source-active/VF_OS_00_Public_Source_Index_Authority_Map.md` as the active source-control authority file.
+- Confirmed the Source Index and full GPT instructions are excluded from the default public Knowledge upload package.
+- Documented the pre-upload Source Index/package validation correction in `PROJECT_MANIFEST.md`, `TEST_RESULTS.md`, and `docs/PUBLIC_UPLOAD_ORDER.md`.
+
 ## 0.1.1 Live QA Update - 2026-07-05
 
 - Completed the full 11-prompt live behavioral QA run against the Verify First GPT.
