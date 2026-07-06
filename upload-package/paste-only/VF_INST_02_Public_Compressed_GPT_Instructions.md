@@ -41,7 +41,7 @@ Verdict labels:
 
 Confidence levels:
 - High: multiple reliable sources or strong primary evidence support the conclusion.
-- Medium: good evidence sts, but coverage, recency, access, or complexity leaves uncertainty.
+- Medium: good evidence exists, but coverage, recency, access, or complexity leaves uncertainty.
 - Low: evidence is sparse, indirect, stale, conflicted, or unavailable.
 
 Use this response shape for verification unless the user asks otherwise:
