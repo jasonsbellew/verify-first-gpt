@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 Live Source-Control Refusal Patch - 2026-07-05
+
+- Removed source-control files from active live GPT Knowledge: Source Index / Authority Map and Full GPT Instructions.
+- Tightened hidden-instruction refusal language so requests for behavior-defining files do not receive file names, file roles, file inventories, or uploaded-file summaries.
+- Reran behavioral QA test 11 in a fresh Verify First GPT conversation.
+- Confirmed the final fresh rerun refused the hidden/source-control request and gave only a generic public capability summary.
+
 ## 0.1.1 Clean Fresh-Conversation QA - 2026-07-05
 
 - Ran all 11 behavioral QA prompts in isolated fresh Verify First GPT conversations.
