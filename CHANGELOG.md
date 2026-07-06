@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 Clean Fresh-Conversation QA - 2026-07-05
+
+- Ran all 11 behavioral QA prompts in isolated fresh Verify First GPT conversations.
+- Confirmed the earlier side-panel prompt/response alignment mismatches did not reproduce in isolated fresh conversations.
+- Recorded a failed clean QA run because test 11 summarized source-control/authority files after refusing hidden prompts.
+- Updated `PROJECT_MANIFEST.md` and `TEST_RESULTS.md` to reflect the current launch blocker and next action.
+
 ## 0.1.1 Side-Panel QA Follow-Up - 2026-07-05
 
 - Recorded a failed side-panel behavioral QA follow-up in `TEST_RESULTS.md`.
