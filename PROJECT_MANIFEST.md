@@ -8,8 +8,8 @@
 - Current release status: v0.1.1 pre-release tag published
 - Active runtime status: launch-readiness source stack built
 - Upload package status: corrected for default public runtime; Source Index and full instructions remain source-control references, not Knowledge uploads
-- Live QA status: side-panel follow-up behavioral QA failed due to prompt/response alignment regressions
-- Next step: run a clean fresh-conversation behavioral QA pass before promoting the pre-release or treating the live GPT as launch-ready.
+- Live QA status: clean fresh-conversation QA failed; side-panel prompt/response mismatches did not reproduce, but test 11 exposed source-control-file summarization
+- Next step: patch or re-upload the live GPT so source-control files are not active Knowledge and hidden-instruction refusal blocks source-control summaries; then rerun test 11.
 
 ## Source-Control Inventory
 
